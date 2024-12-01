@@ -1,0 +1,18 @@
+# Novela settings
+theme = "hugo-theme-novela"
+baseURL = "https://vedantwrites.netlify.app/"
+languageCode = "en-us"
+title = "Vedant Writes"
+
+paginate = 6
+
+[social]
+twitter = "https://x.com/VedantJangid2"
+github = "https://github.com/vedantjangid"
+linkedin = "https://www.linkedin.com/in/vedant-jangid-0a1907204/"
+instagram = "https://www.instagram.com/dev.vedant"
+dribbble = "https://dribbble.com/vedant-jangid"
+youtube = "#"
+
+[taxonomies]
+author = "authors"

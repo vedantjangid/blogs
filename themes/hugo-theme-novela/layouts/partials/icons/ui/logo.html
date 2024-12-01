@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="vedant writes blog" content="width=device-width, initial-scale=1.0">
+
+  <title>Vedant Writes</title>
+  <style>
+    h2 {
+      font-size: 2rem;
+      /* Adjust size as needed */
+      margin: 0;
+      line-height: 1.2;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .logo-bold {
+      font-weight: 700;
+      /* Bold for "vedant" */
+
+      /* Adjust color as needed */
+    }
+
+    .logo-thin {
+      font-weight: 300;
+      /* Thin for "writes" */
+      color: #666;
+      /* Slightly lighter color for contrast */
+      margin-left: 4px;
+      /* Adds a slight space between "vedant" and "writes" */
+    }
+
+
+
+    /* Media query for mobile view */
+    @media (max-width: 768px) {
+      #logo-desktop {
+        display: none;
+      }
+
+      #logo-mobile {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="logo-desktop">
+    <h2>
+      <span class="logo-bold">vedant</span>
+      <span class="logo-thin">writes</span>
+    </h2>
+  </div>
+  <div id="logo-mobile" class="hidden">
+    <h2>
+      <span class="logo-bold">vedant</span>
+      <span class="logo-thin">writes</span>
+    </h2>
+  </div>
+</body>
+
+</html>

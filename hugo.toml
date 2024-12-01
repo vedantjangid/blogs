@@ -1,0 +1,11 @@
+baseURL = "https://vedantwrites.netlify.app/"
+languageCode = 'en-us'
+title = 'Vedant Writes'
+theme = 'hugo-theme-novela'
+[social]
+twitter = "https://twitter.com/yourusername"
+github = "https://github.com/yourusername"
+linkedin = "https://www.linkedin.com/in/yourusername"
+instagram = "https://www.instagram.com/yourusername"
+dribbble = ""  # Optional
+youtube = ""   # Optional
