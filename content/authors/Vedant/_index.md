@@ -1,8 +1,7 @@
 ---
 title: Vedant
 bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
+  A data engineer by day and a techie by passion. Obsessed with CPUs, Linux, self-hosting, and all things that scream “nerd alert,” thrives on tinkering with machines and diving deep into the internet. Fueled by caffeine and an endless curiosity for technology and the online chaos.
 avatar: /images/profile-01.png
 featured: true
 social:

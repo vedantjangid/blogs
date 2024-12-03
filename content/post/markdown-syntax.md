@@ -2,6 +2,7 @@
 title: Markdown Syntax Guide v2
 date: 2019-03-11
 hero: "/images/hero-2.jpg"
+draft: true
 excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
 authors:
   - Vedant

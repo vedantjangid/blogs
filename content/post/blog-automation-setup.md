@@ -1,86 +1,115 @@
 ---
-title: Setting Up a CI/CD Blog with Hugo, GitHub, Netlify, and a Custom Subdomain
+title: "Zero to Blog: A Lazy Engineer's Guide to Automating Web Presence"
 date: 2024-12-02
-hero: "/images/blog-setup-hero.jpg"
-excerpt: A step-by-step guide on building a seamless blogging workflow using Hugo, GitHub, Netlify, and GoDaddy subdomains.
+hero: "/images/hugo-github-netlify.png"
+excerpt: "A humorous yet detailed guide on building a seamless blogging workflow using Hugo, GitHub, Netlify, and GoDaddy subdomains, the lazy engineer's way."
 authors:
   - Vedant
 ---
 
-Creating a blog can be a straightforward process, but automating it with a CI/CD pipeline elevates its efficiency and professionalism. This post describes how I set up a blogging workflow using Hugo, integrated it with GitHub and Netlify, and configured a custom subdomain using GoDaddy.
+If you're a **lazy 10x engineer** like me, you'll appreciate the art of doing less while achieving more. Setting up a blog? Sounds like manual work—_ew_. Instead, I automated the entire process with a CI/CD pipeline using **Hugo**, **GitHub**, **Netlify**, and a custom subdomain via **GoDaddy**.
 
-<!--more-->
+Here's how I transformed my blog into a professional, self-updating masterpiece.
 
-## Overview
+## The Outcome
 
-I built a CI/CD pipeline for my blog using **Hugo**, a fast and flexible static site generator. Here’s what I achieved:
+- **Automated deployment:** Push to GitHub, and Netlify does the rest.
+- **Customized blog theme:** No cookie-cutter themes here.
+- **Custom subdomain:** Because `vedant.cloud` screams professionalism.
+- **Zero manual effort:** The ultimate lazy 10x engineer flex.
 
-1. Automated deployment and hosting via **GitHub** and **Netlify**.
-2. A custom blog theme created and managed seamlessly.
-3. A subdomain (`blog.vedant.cloud`) configured with **GoDaddy** to point to the Netlify-hosted site using a CNAME record.
+## Step 1: Install Hugo (Fast, because who has time?)
 
-This setup ensures that every update to my blog repository automatically triggers a rebuild and redeployment, delivering an efficient, streamlined workflow.
+First things first, I needed Hugo—a static site generator. On macOS, I installed it with a single command using **Homebrew**:
 
-## Step-by-Step Guide
-
-### 1. Installing Hugo
-
-The first step was installing Hugo. On macOS, this can be done conveniently using Homebrew:
-
-\`\`\`bash
+```bash
 brew install hugo
-\`\`\`
+```
 
-After installation, I verified it using:
+![Hugo Serve Screenshot](/images/hugo-serve.png)
 
-\`\`\`bash
+I confirmed Hugo was ready to go with:
+
+```bash
 hugo version
-\`\`\`
+```
 
-### 2. Setting Up a New Blog
+In less than a minute, I was one step closer to lazy engineer greatness.
 
-Once Hugo was installed, I created a new Hugo project:
+## Step 2: Set Up the Blog
 
-\`\`\`bash
+With Hugo installed, I created a new project. All it took was one command:
+
+```bash
 hugo new site blogs
-\`\`\`
+```
 
-Next, I explored Hugo themes and downloaded a base theme that I customized to align with my style. I used Git for version control throughout the process:
+This gave me a bare-bones structure for my blog. Next, I grabbed a theme. Using `git submodule`, I added the theme directly to my repository:
 
-\`\`\`bash
+```bash
 git submodule add https://github.com/<theme-repo-url> themes/hugo-theme
-\`\`\`
+```
 
-### 3. Customizing the Blog Theme
+## Step 3: Customize the Blog Theme
 
-Using Hugo's templates, I modified the blog's design. I customized layouts, color schemes, and content structures to give my blog a unique and personalized appearance. These changes were committed to a separate repository to ensure version control and reusability.
+Default themes are great—for someone else. I needed **custom everything**. So, I rolled up my sleeves and customized layouts, colors, and components to align with my _10x vision_. The end result? A unique theme tailored to perfection.
 
-### 4. CI/CD Pipeline with GitHub and Netlify
+## Step 4: CI/CD with GitHub and Netlify
 
-I created a GitHub repository to store my blog's code and connected it to Netlify for hosting. Netlify automatically builds and deploys the site every time I push updates to the repository.
+The lazy engineer's dream: **push, deploy, relax.**
 
-Netlify was configured as follows:
+### GitHub Setup
 
-1. Link the GitHub repository to Netlify.
-2. Define the build command (`hugo`) and specify the output directory (`public`).
-3. Ensure Netlify’s build environment includes all necessary dependencies.
+I initialized a Git repository for version control, added all files, and pushed my blog code:
 
-### 5. Configuring the Subdomain
+```bash
+git init
+git add .  # Add ALL files in the current directory
+git commit -m "Initial commit"
+git push origin main
+```
 
-Finally, I set up a subdomain (`blog.vedant.cloud`) using GoDaddy:
+![Git Push Screenshot](/images/git-push.png)
 
-1. Create a CNAME record in GoDaddy's DNS settings.
-2. Point the subdomain to Netlify’s domain provided during setup.
-3. Verify the connection to ensure the subdomain properly redirects to the Netlify-hosted site.
+### Netlify Setup
 
-### 6. Testing and Finalizing
+I connected my GitHub repo to **Netlify**, defined the build command (`hugo`), and specified the output directory (`public`). Netlify now automatically builds and deploys my site every time I push changes.
 
-To test the setup, I made a few changes to the blog content and pushed them to GitHub. Each update triggered a build and redeployment on Netlify, confirming the CI/CD pipeline worked seamlessly.
+![Netlify Deployment Screenshot](/images/netlify-deploy.png)
 
-## Conclusion
+## Step 5: Add a Custom Subdomain
 
-This project highlights the power of automation in blogging. Using Hugo, GitHub, Netlify, and GoDaddy together created an efficient workflow for deploying and maintaining a professional blog. By automating repetitive tasks, I can now focus on creating quality content while the pipeline handles the rest.
+Because `blog.vedant.cloud` > any default Netlify URL.
 
----
+Using GoDaddy, I set up a **CNAME record** to point my subdomain to Netlify:
 
-If you’re interested in setting up a similar workflow or have questions, feel free to reach out!
+```plaintext
+CNAME Record:
+blog.vedant.cloud -> <your-netlify-site-name>.netlify.app
+```
+
+Within minutes, my blog had a custom subdomain, making it as professional as it was automated.
+
+## Step 6: Test, Push, Done
+
+I tested my pipeline with the following commands:
+
+1. Preview locally: `hugo serve -D`
+2. Commit changes: `git add . && git commit -m "Added content"`
+3. Push to GitHub: `git push origin main`
+
+Netlify picked up the changes and deployed them in seconds. Voila! Automation at its finest.
+
+## Links
+
+- **My Blog:** [blog.vedant.cloud](https://blog.vedant.cloud)
+- **My GitHub:** [github.com/vedantjangid](https://github.com/vedantjangid)
+- **Netlify Hosting:** [netlify.com](https://www.netlify.com)
+
+## Final Thoughts
+
+This setup epitomizes the **lazy 10x engineer philosophy**: automate everything, invest the least amount of effort, and get the best possible results. With Hugo, GitHub, Netlify, and GoDaddy, my blog now runs itself.
+
+What's next for this lazy engineer? Probably automating my coffee machine.
+
+**Bonus Tip:** If you're reading this, you're already halfway to building your automated blog. Go ahead, embrace the laziness, and let the tools do the work.

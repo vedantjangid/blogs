@@ -6,10 +6,17 @@
     <description>Recent content on Vedant Writes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide</title>
+      <title>Zero to Blog: A Lazy Engineer&#39;s Guide to Automating Web Presence</title>
+      <link>http://localhost:1313/post/blog-automation-setup/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/blog-automation-setup/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a &lt;strong&gt;lazy 10x engineer&lt;/strong&gt; like me, you&amp;rsquo;ll appreciate the art of doing less while achieving more. Setting up a blog? Sounds like manual work—&lt;em&gt;ew&lt;/em&gt;. Instead, I automated the entire process with a CI/CD pipeline using &lt;strong&gt;Hugo&lt;/strong&gt;, &lt;strong&gt;GitHub&lt;/strong&gt;, &lt;strong&gt;Netlify&lt;/strong&gt;, and a custom subdomain via &lt;strong&gt;GoDaddy&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s how I transformed my blog into a professional, self-updating masterpiece.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-outcome&#34;&gt;The Outcome&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Automated deployment:&lt;/strong&gt; Push to GitHub, and Netlify does the rest.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customized blog theme:&lt;/strong&gt; No cookie-cutter themes here.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Custom subdomain:&lt;/strong&gt; Because &lt;code&gt;vedant.cloud&lt;/code&gt; screams professionalism.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Zero manual effort:&lt;/strong&gt; The ultimate lazy 10x engineer flex.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;step-1-install-hugo-fast-because-who-has-time&#34;&gt;Step 1: Install Hugo (Fast, because who has time?)&lt;/h2&gt;&#xA;&lt;p&gt;First things first, I needed Hugo—a static site generator. On macOS, I installed it with a single command using &lt;strong&gt;Homebrew&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide v2</title>
       <link>http://localhost:1313/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/markdown-syntax/</guid>

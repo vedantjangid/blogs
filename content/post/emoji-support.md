@@ -2,6 +2,7 @@
 title: Emoji Support
 date: 2019-03-05
 hero: "/images/hero-3.jpg"
+draft: true
 excerpt: Guide to emoji usage in Hugo
 authors:
   - Vedant
