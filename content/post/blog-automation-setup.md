@@ -137,6 +137,6 @@ Netlify picked up the changes and deployed them in seconds. Voila! Automation at
 
 This setup epitomizes the **lazy 10x engineer philosophy**: automate everything, invest the least amount of effort, and get the best possible results. With Hugo, GitHub, Netlify, and GoDaddy, my blog now runs itself.
 
-What's next for this lazy engineer? Probably automating my coffee machine.
+What’s next for this lazy engineer? Probably crafting a blog on setting up a full-fledged streaming setup using self-hosted tools for the ultimate entertainment experience.
 
 **Bonus Tip:** If you're reading this, you're already halfway to building your automated blog. Go ahead, embrace the laziness, and let the tools do the work.
