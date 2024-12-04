@@ -1,4 +1,4 @@
-baseURL = "https://vedantwrites.netlify.app/"
+baseURL = "https://blog.vedant.cloud"
 languageCode = 'en-us'
 title = 'Vedant Writes'
 theme = 'hugo-theme-novela'

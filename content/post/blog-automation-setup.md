@@ -15,7 +15,7 @@ Here's how I transformed my blog into a professional, self-updating masterpiece.
 
 - **Automated deployment:** Push to GitHub, and Netlify does the rest.
 - **Customized blog theme:** No cookie-cutter themes here.
-- **Custom subdomain:** Because `vedant.cloud` screams professionalism.
+- **Custom subdomain:** Because `blog.vedant.cloud` screams professionalism.
 - **Zero manual effort:** The ultimate lazy 10x engineer flex.
 
 ## Step 1: Install Hugo (Fast, because who has time?)

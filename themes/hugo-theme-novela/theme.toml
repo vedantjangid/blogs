@@ -8,11 +8,11 @@ features = ["dark mode", "grid view"]
 min_version = "0.65.0"
 
 [author]
-    name = "The New Dynamic"
+    name = "Vedant"
     homepage = "https://www.thenewdynamic.com/"
 
 # If porting an existing theme
 [original]
-    author = "Narative"
-    homepage = "https://www.narative.co/"
+    author = "Vedant"
+    homepage = "https://blog.vedant.cloud"
     repo = "https://github.com/narative/gatsby-theme-novela"

@@ -2,7 +2,7 @@
 title: Vedant
 bio: |
   A data engineer by day and a techie by passion. Obsessed with CPUs, Linux, self-hosting, and all things that scream “nerd alert,” thrives on tinkering with machines and diving deep into the internet. Fueled by caffeine and an endless curiosity for technology and the online chaos.
-avatar: /images/profile-01.png
+avatar: /images/vedant-jangid.png
 featured: true
 social:
   - title: github
