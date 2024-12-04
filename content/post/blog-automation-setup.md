@@ -46,9 +46,36 @@ hugo new site blogs
 
 This gave me a bare-bones structure for my blog. Next, I grabbed a theme. Using `git submodule`, I added the theme directly to my repository:
 
+### Example: Adding and Using a Blog Theme
+
+I chose the **Ananke** theme for this example, as it’s a popular choice for Hugo beginners. Here’s how I added it:
+
 ```bash
-git submodule add https://github.com/<theme-repo-url> themes/hugo-theme
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
+
+Next, I updated my `config.toml` file to use the theme:
+
+```toml
+baseURL = "https://blog.vedant.cloud"
+languageCode = "en-us"
+title = "My Awesome Blog"
+theme = "ananke"
+```
+
+Then, I added a new post to see the theme in action:
+
+```bash
+hugo new posts/first-post.md
+```
+
+I populated the content/posts/first-post.md file with some text and previewed the site locally:
+
+```bash
+hugo serve -D
+```
+
+The theme was live, and my blog was starting to look professional.
 
 ## Step 3: Customize the Blog Theme
 
