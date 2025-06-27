@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>🚀 From GCS to BigQuery: Building Scalable ETL Pipelines with Apache Airflow</title>
+      <title>From GCS to BigQuery: Building Scalable ETL Pipelines with Apache Airflow 🧑‍💻</title>
       <link>http://localhost:1313/post/from-gcs-to-bigquery-airflow-etl/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/from-gcs-to-bigquery-airflow-etl/</guid>
-      <description>&lt;h1 id=&#34;-from-gcs-to-bigquery-building-etl-pipelines-with-apache-airflow&#34;&gt;🚀 From GCS to BigQuery: Building ETL Pipelines with Apache Airflow&lt;/h1&gt;&#xA;&lt;p&gt;Want to move data from Google Cloud Storage to BigQuery, transform it, and make it analyst-friendly—all in a single, reliable pipeline? Here&amp;rsquo;s how I did it with Airflow, and how you can too.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-why-this-pipeline&#34;&gt;👋 Why This Pipeline?&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s be honest: data engineering isn&amp;rsquo;t just about crunching numbers. It&amp;rsquo;s about making sure the right data lands in the right place, in the right shape, every single time—even when the world throws you curveballs.&lt;/p&gt;</description>
+      <description>&lt;h1&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Want to move data from Google Cloud Storage to BigQuery, transform it, and make it analyst-friendly—all in a single, reliable pipeline? Here&amp;rsquo;s how I did it with Airflow, and how you can too.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-why-this-pipeline&#34;&gt;👋 Why This Pipeline?&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s be honest: data engineering isn&amp;rsquo;t just about crunching numbers. It&amp;rsquo;s about making sure the right data lands in the right place, in the right shape, every single time—even when the world throws you curveballs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zero to Blog: A Lazy Engineer&#39;s Guide to Automating Web Presence</title>
