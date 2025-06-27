@@ -1,13 +1,9 @@
-
 let be = document.getElementsByTagName("BODY")[0];
-
-initColors();
 
 function initColors(){
     if (localStorage.getItem("isLight") === null) {
-        localStorage.setItem("isLight", 'true');
+        localStorage.setItem("isLight", 'true'); // Default to light theme
     }
-
     if (localStorage.getItem("isLight") === 'false'){
         makeDark();
     }
@@ -16,6 +12,7 @@ function initColors(){
     }
 }
 
+initColors();
 
 function makeDark(){
     be.style.setProperty('--primary', "#fff");

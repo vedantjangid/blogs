@@ -55,11 +55,11 @@ graph TD
 
 Picture this:
 
-> You've got a CSV of global health data in GCS. Your mission:
- Load it into BigQuery for analysis
- Create country-specific tables for regional teams
- Generate reporting views with clean, analyst-friendly columns
- Handle failures gracefully and keep tabs on the whole process
+ You've got a CSV of global health data in GCS. Your mission:
+> - Load it into BigQuery for analysis
+> - Create country-specific tables for regional teams
+> - Generate reporting views with clean, analyst-friendly columns
+> - Handle failures gracefully and keep tabs on the whole process
 
 Sound familiar? Here's how I tackled it.
 
