@@ -2,20 +2,20 @@
 title: "From GCS to BigQuery: Building Scalable ETL Pipelines with Apache Airflow 🧑‍💻"
 date: 2025-06-27
 hero: "/images/airflow-gcs-bq.png"
-excerpt: "A hands-on, real-world guide to building robust, scalable ETL pipelines with Apache Airflow, GCS, and BigQuery. Learn the tricks, the pitfalls, and the magic of orchestration."
+excerpt: "A hands on, real-world guide to building robust, scalable ETL pipelines with Apache Airflow, GCS, and BigQuery. Learn the tricks, the pitfalls, and the magic of orchestration."
 authors:
   - Vedant
 ---
 
 #
 
-Want to move data from Google Cloud Storage to BigQuery, transform it, and make it analyst-friendly—all in a single, reliable pipeline? Here's how I did it with Airflow, and how you can too.
+Want to move data from Google Cloud Storage to BigQuery, transform it, and make it analyst friendly all in a single, reliable pipeline? Here's how I did it with Airflow, and how you can too.
 
 ---
 
 ## 👋 Why This Pipeline?
 
-Let's be honest: data engineering isn't just about crunching numbers. It's about making sure the right data lands in the right place, in the right shape, every single time—even when the world throws you curveballs.
+Let's be honest: data engineering isn't just about crunching numbers. It's about making sure the right data lands in the right place, in the right shape, every single time even when the world throws you curveballs.
 
 I recently built a pipeline to load global health data from GCS into BigQuery, split it by country, and create clean reporting views. Here's the architecture that made it all work (and saved me from 3 AM alerts):
 
@@ -57,8 +57,8 @@ Picture this:
 
 > You've got a CSV of global health data in GCS. Your mission:
  Load it into BigQuery for analysis
- Create country-specific tables for regional teams
- Generate reporting views with clean, analyst-friendly columns
+ Create country specific tables for regional teams
+ Generate reporting views with clean, analyst friendly columns
  Handle failures gracefully and keep tabs on the whole process
 
 Sound familiar? Here's how I tackled it.
@@ -67,7 +67,7 @@ Sound familiar? Here's how I tackled it.
 
 ## 💡 The Solution: A Multi-Stage ETL DAG
 
-*This isn't just a DAG—it's a battle-tested blueprint for scalable, maintainable data pipelines.*
+*This isn't just a DAG it's a battle tested blueprint for scalable, maintainable data pipelines.*
 
 ---
 
@@ -269,7 +269,7 @@ graph TD
 
 ## 🏆 What Makes This Pipeline Special?
 
-> **Battle-tested:** These aren't just best practices—they're solutions I've used in production, under real pressure.
+> **Battle-tested:** These aren't just best practices they're solutions I've used in production, under real pressure.
 
 ### 1. **Robust File Handling**
 The `GCSObjectExistenceSensor` is a game-changer. Instead of blindly trying to process files, we verify they exist first. This prevents cascade failures and provides clear error messages when source data is missing.
@@ -353,15 +353,15 @@ Here are some enhancements I'm considering:
 
 ## 💭 Final Thoughts
 
-This DAG represents more than just code—it's a blueprint for scalable, maintainable data pipelines. The combination of Airflow's orchestration capabilities with BigQuery's processing power creates a robust foundation for any data team.
+This DAG represents more than just code it's a blueprint for scalable, maintainable data pipelines. The combination of Airflow's orchestration capabilities with BigQuery's processing power creates a robust foundation for any data team.
 
-The beauty lies in the details: file validation, dynamic task generation, clean data architecture, and parallel processing. These aren't just best practices—they're battle-tested solutions that scale with your business.
+The beauty lies in the details: file validation, dynamic task generation, clean data architecture, and parallel processing. These aren't just best practices they're battle-tested solutions that scale with your business.
 
 ---
 
 ## 👤 Meet the Author
 
-Hey, I'm Vedant! I love building data systems that just work—even when the world is messy. If you're building similar pipelines or have questions about this approach, I'd love to hear from you! Data engineering is a journey best traveled with fellow practitioners who understand the joy of a well-orchestrated pipeline and the pain of debugging a 3 AM failure.
+Hey, I'm Vedant! I love building data systems that just work even when the world is messy. If you're building similar pipelines or have questions about this approach, I'd love to hear from you! Data engineering is a journey best traveled with fellow practitioners who understand the joy of a well-orchestrated pipeline and the pain of debugging a 3 AM failure.
 
 > **Let's connect:**
 > - [Twitter](https://x.com/VedantJangid2)
